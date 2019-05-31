@@ -1,0 +1,55 @@
+body {
+  background-image: url(http://starkovtattoo.spb.ru/images/200/DSC100215082.jpg);
+}
+.rotulo {
+  display: block;
+  padding: 20px;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-width: 3px;
+  border-color: #484770;
+  border-top-style: double;
+  max-width: 940px;
+  background-color: #cbb9ca;
+ 
+  height: 50px;
+  position: relative;
+  z-index: 50;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+}
+
+label {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.425rem;
+    color: #714f68;
+    letter-spacing: 2px;
+}
+
+label span {
+    margin-top: 50px;
+}
+
+canvas {
+  border-width: 3px;
+  border-color: #484770;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+#minhacor {
+  width: 50px;
+  height: 50px;
+  border: 3px dotted #484770;
+  cursor: pointer;
+}
+
+p {
+  color: antiquewhite;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+}
